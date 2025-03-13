@@ -1,0 +1,26 @@
+{
+    "name": "your-vendor/tryoto-api",
+    "description": "CodeIgniter 4 library for Tryoto API integration",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your-email@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "codeigniter4/framework": "^4.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TryotoApi\\": "src/"
+        }
+    }
+}

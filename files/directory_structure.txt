@@ -1,0 +1,29 @@
+tryoto-api/
+├── src/
+│   ├── Config/
+│   │   ├── Tryoto.php
+│   │   └── Routes.php
+│   ├── Controllers/
+│   │   └── TryotoController.php
+│   ├── Libraries/
+│   │   ├── TryotoClient.php
+│   │   ├── Authentication.php
+│   │   ├── Products.php
+│   │   ├── Orders.php
+│   │   ├── Customers.php
+│   │   ├── Payments.php
+│   │   ├── Shipping.php
+│   │   ├── Inventory.php
+│   │   └── Webhooks.php
+│   ├── Models/
+│   │   ├── TryotoModel.php
+│   │   └── TryotoLogModel.php
+│   ├── Helpers/
+│   │   └── tryoto_helper.php
+│   └── Views/
+│       └── dashboard.php
+├── tests/
+│   └── TryotoTest.php
+├── composer.json
+├── LICENSE
+└── README.md
